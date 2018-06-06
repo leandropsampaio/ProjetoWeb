@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Aprendendo Html5">
+        <meta name="keywords" content="Htlm5, Css3">
+        <meta name="author" content="Leandro Sampaio">
+        <!-- Atualiza a página a cada 10 segundos -->
+        <!--<meta http-equiv="refresh" content="10">-->
+
+        <title> Aprendendo Html5</title>
+        <style>
+            table, th, td{border: 1px solid darkgreen;}
+            th, td{padding: 7px;}
+            .nome{background-color: blue;}
+            .email{background-color: red;}
+            .sexo{background-color: blueviolet;}
+            span{color: red; background-color: gainsboro;}
+            mark{color: black; background-color: gold;}
+        </style>
+
+        <!-- Ícone da página -->
+        <link rel="icon" href="a.png">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <!-- Aula 02
+        Hello Word!
+        -->
+
+        <!-- Aula 03
+        <h1>Título</h1>
+        <h2>Título2</h2>
+
+        <p>Vestibulum odio magna, porttitor ut vestibulum sed, dictum sed erat. Nullam venenatis arcu ac neque molestie, rhoncus varius elit tincidunt. Suspendisse mattis dictum diam, ut dignissim erat tristique eu. Donec tellus mauris, finibus non libero nec, fermentum suscipit justo. Donec eget vulputate ipsum. Curabitur molestie orci ac nulla auctor, vel dignissim velit fermentum. Proin ac ante tellus. Cras erat ipsum, efficitur eu ligula consequat, dignissim consectetur nunc. Suspendisse euismod tempor turpis, vitae facilisis libero rutrum id. Vestibulum consequat dignissim nibh eget pretium. Fusce faucibus quam nec suscipit fermentum. Nulla tristique, risus non feugiat sodales, sapien enim ornare nisi, placerat facilisis urna nisi id leo.</p>
+        <br>
+        -->
+
+        <!-- Aula 04
+        <h1>Listas</h1>
+        <h2>Lista Ordenada</h2>
+        <ol type="I">
+            <li>O tipo pode ser "I,i,1,a,A"</li>
+            <li>Ventilador</li>
+            <li>Mesa</li>
+            <li>Cadeira</li>
+            <li>Televisão
+                <ol type="i">
+                    <li>HD</li>
+                    <li>FULL HD</li>
+                </ol>
+            </li>
+        </ol>
+
+        <h2>Lista não ordenada</h2>
+        <ul>
+            <li>Ventilador</li>
+            <li>Mesa</li>
+            <li>Cadeira</li>
+            <li>Televisão</li>
+        </ul>
+
+        <h2>Lista de descrição</h2>
+        <dl>
+            <strong><dt>Ventilador</dt></strong>
+                <dd>Um ventilador é...</dd>
+            <strong><dt>Mochila</dt></strong>
+                <dd>Uma mochila é...</dd>
+            <strong><dt>Televisão</dt></strong>
+                <dd>Uma televisão é ...</dd>
+        </dl>
+        -->
+
+
+        <!-- Aula 05
+        <h1> Inserindo Imagens</h1>
+
+        <img src="a.png" alt="Imagem" title="Shild GSM Arduino" width="400" height="400">
+        -->
+
+        <!-- Aula 06
+        <iframe width="1000" height="1000" src="http://www.fortenanoticia.com.br/">
+
+        </iframe>
+        -->
+
+        <!-- Aula 07
+        <!-- target="_selfie" ou "_blank", selfie a página abre na mesma aba, já o
+        blank abre outra aba para abrir o link --
+        <a href="a.png" target="_blank">Link</a>
+        <br>
+        <a href="https://www.google.com.br" target="_blank"><img src="google.png" title="Google" alt="Google"></a>
+        <br>
+        -->
+
+        <!-- tr = criar linhas || th = coluna dessa linha -->
+        <!-- colspan = aumenta a quantidade de colunas da palavra
+             rowspan = aumenta a quantidade de linhas da palabra
+        -->
+        <!-- Aula 08
+        <table>
+            <caption>Cadastro de Clientes</caption>
+            <colgroup>
+                <col class="nome">
+                <col class="email">
+                <col class="sexo">
+            </colgroup>
+
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Sexo</th>
+            </tr>
+            <tr>
+                <td>Leandro</td>
+                <td>20</td>
+                <td>Masculino</td>
+            </tr>
+            <tr>
+                <td colspan="3">Total: 2</td>
+            </tr>
+        </table>
+        -->
+
+        <!-- Aula 09
+        <div>
+            <h1>Aprendendo Divs</h1>
+            <p><span>Lorem Ipsum</span> é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+        </div>
+        -->
+
+        <!-- Aula 12
+        <audio controls="" autoplay="" loop="">
+            <source src="zenetoecristianoOficial-eu-ligo-pra-voce-670b19 (1).mp3" type="audio/mp3">
+        </audio>
+        -->
+
+        <!-- Aula 13
+        <video controls="">
+            <source src="Grafo.mp4" type="video/mp4">
+        </video>
+        -->
+
+        <!-- Aula sobre formulários
+        <fieldset>
+            <legend>LOGIN DO USUÁRIO</legend>
+            <form action="cadastro.php" method="POST">
+                Nome: <input type="text" name="nome" required="" autofocus="" maxlength="10" placeholder="Escreva seu nome.."><br>
+                <br>
+                Senha: <input type="password" name="senha" required="" placeholder="Escreva sua senha..."><br>
+                <br>
+                Email: <input type="email" name="email" required="" placeholder="Escreva seu e-mail...">
+                <br>
+                <br>
+                Time:
+                <input type="radio" name="time" value="vasco"> Vasco
+                <input type="radio" name="time" value="bahia" checked=""> Bahia
+                <input type="radio" name="time" value="fluminense"> Fluminense
+                <br>
+                <br>
+                Cores:
+                <br>
+                <input type="checkbox" name="cores" value="Verde">Verde
+                <input type="checkbox" name="cores" value="Vermelho">Vermelho
+                <input type="checkbox" name="cores" value="Branco"> Branco
+                <br>
+                <br>
+                Idade: <input type="number" name="numero" min="0" max="130" step="10">
+                <br>
+                <br>
+                Quantidade: <input type="range" name="quantidade">
+                <br>
+                <br>
+                <input type="file" name="imagem">
+                <br>
+                <br>
+                URL: <input type="url" name="site">
+                <br>
+                <br>
+                Procurar: <input type="search" name="pesquisa">
+                <br>
+                <br>
+                Telefone: <input type="tel" name="telefone">
+                <br>
+                <br>
+                Data: <input type="date" name="data">
+                <br>
+                <br>
+                Data e Hora: <input type="datetime-local" name="datahora">
+                <input type="submit" value="ENVIAR">
+                <br>
+                <br>
+                <textarea name="mensagem" rows="5" cols="30" placeholder="Escreva seu texto aqui..."></textarea>
+                <br>
+                <br>
+                <select name="veiculo">
+                    <optgroup label="Carros">
+                        <option value="camaro">Camaro</option>
+                        <option value="gol" selected="">Gol</option>
+                        <option value="camaro">Palio</option>
+                        <option value="camaro">Fiesta</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+
+                <input name="cursos" list="lista-cursos">
+                <datalist id="lista-cursos">
+                    <option value="html5"></option>
+                    <option value="css3"></option>
+                    <option value="java"></option>
+                </datalist>
+                <br>
+                <br> 
+            </form>
+        </fieldset>
+        
+        <a href="google.png"><button type="button"> BUTTON</button></a>
+        -->
+
+        <!-- Aula 26
+        <div contenteditable="">
+            <h1>vtyvudfvuyasv</h1>
+            <p contenteditable="false">dsdasdsad <mark>importante</mark>asd sad asd asd sd s</p>
+        </div>
+        -->
+
+        <!-- Aula 27
+        <a href="http://www.google.com.br" accesskey="a">GOOGLE</a>
+        -->
+
+        <!-- Aula 28
+        <details>
+            <summary >MENU</summary>
+            <br>
+            <a href="http://www.google.com.br">GOOGLE</a>
+        </details>
+        
+        <br>
+        <br>
+        A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue estabelecido na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável​​, que todos possam editar e melhorar.
+
+        O projeto é definido pelos princípios fundadores. O conteúdo é disponibilizado sob a licença Creative Commons BY-SA e pode ser copiado e reutilizado sob a mesma licença — mesmo para fins comerciais — desde que respeitando os termos e condições de uso.
+        -->
+
+        <!-- Aula 29
+        <meter min="0" low="3" high="7" optimum="10" max="10" value="7"></meter>
+        <progress max="100" value="80"></progress>
+        -->
+
+        <!-- Aula 29 Abrir PDF e animações
+        <object width="800" height="1000" data="a.png"></object>
+        -->
+
+        <!-- Aula 30
+        <hgroup>
+        <h1>Título</h1>
+        <h2>Subtítulo</h2>
+        </hgroup>
+        <p>
+            A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue estabelecido na internet sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável​​, que todos possam editar e melhorar.
+        </p>
+        -->
+
+        <!-- Aula 32
+        <figure>
+            <img src="a.png">
+            <img src="google.png">
+            <figcaption>LEGENDA</figcaption>
+        </figure>
+        -->
+
+        <!-- Aula 33
+        <script src="js.js">
+            //alert("HELLO WORLD!");
+        </script>
+        -->
+
+        <!-- Aula 34
+        <h1 style="color: brown;">TAG LINK</h1>
+        -->
+
+        <!-- Aula 34
+        <img src="mapa.jpg" usemap="#imagem-mapeada">
+        <map name="imagem-mapeada">
+            <area shape="rect" coords="337,200,400,240" href="https://www.google.com.br">
+            <area shape="circle" coords="260,370,21" href="#">
+            <area shape="poly" coords="192,285,236,276,266,304,233,357,213,336,192,336,185,305,192,285" href="#">
+        </map>
+        -->
+
+        <!-- Aula 35
+        Escrito por Leandro Sampaio - <time datetime="2020-05-12 12:30">12 de Maio de 2020</time>
+        -->
+
+        <!-- Aula 36
+        <form method="GET" action="cadastro.php">
+            Nome: <input type="text" name="nome">
+            <br>
+            Chave <keygen name="chave">
+            <br>
+            <input type="submit" value="ENVIAR">
+        </form>
+        -->
+
+        <!--/////////////////////// AULA CSS3 /////////////////////////////////-->
+
+        <!-- Aula 03
+        <h1>HELLO WORD!</h1> <br>
+        <p>HELLO WORD!</p> <br>
+        HELLO WORD! <br><br>
+        
+        <form>
+            Nome: <input type="text" name="nome">
+            <br>
+            Email: <input type="email" name="email">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        -->
+
+        <!-- Aula 04
+        <h1>Agrupamento</h1>
+        <h2>Teste</h2>
+        -->
+
+        <!-- Aula 05
+        <p class="texto-principal fundo-principal">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>
+        
+        <div id="conteudo">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        
+        <div id="conteudo2">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        -->
+
+        <!-- Aula 06
+        <div id="conteudo">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        -->
+
+        <!-- Aula 07
+        <div id="exemplo">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+
+        <div id="exemplo2">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        -->
+
+        <!-- Aula 08
+        <h1>esquerda</h1>
+        <h2>Centro</h2>
+        <h3>direita</h3>
+        -->
+
+        <!-- Aula 09
+        <p>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>
+        -->
+
+        <!-- Aula 10
+        <div id="conteudo">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        -->
+
+        <!-- Aula 11
+        <div id="conteudo">
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            </p>
+        </div>
+        -->
+
+        <!-- Aula 12
+        <div id="bloco">
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </div>
+        -->
+
+        <!-- Aula 13
+        <p>
+            Aqui é meu texto !!!!!!!!
+        </p>
+        -->
+
+        <!-- Aula 14
+        <p>
+            Teste de nova fonte !
+        </p>
+        -->
+
+        <!-- Aula 15 e 16
+        <div id="cores">
+        </div>
+        -->
+
+        <!-- Aula 21
+        <div id="exemplo">
+        </div>
+        -->
+
+        <!-- Aula 22
+        <p >
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>
+        -->
+        <input name="cursos" type="search" list="lista-cursos">
+        <datalist id="lista-cursos">
+                    <option value="html5"></option>
+                    <option value="css3"></option>
+                    <option value="java"></option>
+                    <option value="php"></option>
+        </datalist>
+        
+        
+    </body>
+</html>
